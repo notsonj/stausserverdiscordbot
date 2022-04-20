@@ -1,0 +1,21 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[tool]
+[tool.poetry]
+authors = ["Your Name <you@example.com>"]
+description = ""
+name = "repl_python3_Discord-Bot"
+version = "0.1.0"
+[tool.poetry.dependencies]
+payload-api = "^0.4.3"
+python = "^3.8"
+requests = "^2.26.0"
+Flask = "^2.0.2"
+pymongo = "^3.12.1"
+dns-blackhole = "^0.12"
+dnspython = "^2.1.0"
+discord-components = "^2.1.2"
+"discord.py" = "^1.7.3"
+[tool.poetry.dev-dependencies]
